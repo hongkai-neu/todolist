@@ -16,15 +16,19 @@ A FastAPI-based TODO application that implements a priority queue for managing t
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/todo-api.git
-cd todo-api
+git clone https://github.com/hongkai-neu/todolist
+cd todolist
 ```
 
 2. Install uv if you don't have it yet
 
 3. Install dependencies with uv or manually by creating a virtual environment and installing the dependencies
 ```bash
+# Set up virtual environment and install dependencies with uv
 uv sync
+
+# Activate the virtual environment
+source .venv/bin/activate # On Windows: .venv\Scripts\activate
 ```
 
 ## Running the Application
